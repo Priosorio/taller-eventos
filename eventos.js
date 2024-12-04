@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     boton.addEventListener('click', (event) => {
         alert('Hola!');
         
-    
+    event.stopPropagation();
         
     });
     
